@@ -1,0 +1,112 @@
+h5 {
+  border-bottom: 3px solid #FFC5E3;
+    font-family: 'Raleway';
+    font-size: 1.7em;
+}
+.navbar {
+  text-align: center;
+  height: 10%;
+}
+
+.navbar h4 {
+  font-family: 'Sacramento';
+  font-weight: bold;
+  font-size: 3em;
+}
+.welcome{
+text-align: center;
+height: 100%;
+width: 100%;
+display: table;
+}
+.welcome-text {
+  font-family: 'Raleway';
+  max-width: 600px;
+margin: 0 auto;
+vertical-align: middle;
+display: table-cell;
+}
+
+.outterwrapper{
+height: 100%;
+width: 100%;
+display: table;
+}
+.innerwrapper {
+  font-family: 'Raleway';
+  max-width: 600px;
+vertical-align: middle;
+display: table-cell;
+width: 100%;
+}
+
+h6{
+  font-size: 1.4em;
+  font-family: 'Raleway';
+  font-weight: lighter;
+}
+.glyphicon-chevron-down{
+  color: #FFC5E3;
+  height: 20px;
+}
+.button{
+  background-color: #ffffff;
+}
+.row {
+  margin:0;
+  font-family: 'Raleway';
+}
+.footer{
+  width:100%;
+}
+
+.vertical-text {
+  transform: rotate(-90deg);
+  transform-origin: center top 0;
+}
+#interests{
+  width: 100%;
+}
+.section {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.snipit {
+  float: left;
+}
+.date {
+  float: right;
+  text-align: right;
+}
+.col-md-11:hover {
+  border-radius: 10px;
+  box-shadow: 4px 4px 19px 3px rgba(0,0,0,0.62);
+  color: black;
+}
+#resume{
+  height: 600px;
+  padding: 50px;
+}
+#title {
+  margin: 0;
+}
+h6 {
+  padding: 2px 5px;
+  width: 50%;
+}
+a {
+  color: black;
+}
+ul{
+  list-style: none;
+  li{
+    display: inline;
+  }
+}
+.ui-scrollpoint{
+  color:red;
+}
+.navbar-fixed-bottom{
+  height: 5%;
+}

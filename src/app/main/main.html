@@ -1,0 +1,99 @@
+<!-- <div>
+    <div ui-view="navbar" class="navbar" ui-scrollpoint="100"></div>
+  </div> -->
+<nav ui-scrollpoint="400" class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <h4>Jessica D'Andrea</h4>
+  </div>
+</nav>
+<div class="welcome">
+  <div class="welcome-text text-center">
+    <h1>Hello.</h1>
+    <p class="lead">
+      <br> My name is Jessica D'Andrea.
+    </p>
+    <button class="glyphicon glyphicon-chevron-down animated" ng-click="vm.goToResume()"></button>
+  </div>
+</div>
+
+<div class="outterwrapper">
+  <div id="resume" class="innerwrapper container">
+    <div id="title" class="row">
+      <h5>Get To Know Me</h5>
+    </div>
+    <div class="section row">
+      <!-- <div class="col-md-1 vertical-text">Interests</div> -->
+      <div id="interests" class="container-fluid col-md-11">
+        <div class="row">
+          <a ng-click="etl=!etl">
+            <h6 class="snipit">I tinker and explore.</h6>
+            <h6 class="date">Aug 2011 - Apr 2014</h6>
+          </a>
+        </div>
+        <div class="row" ng-show="etl">
+          <p>daslkdj adsjlasd asldja sdjalsdja dlajsd asdasljda d</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section row">
+      <!-- <div class="col-md-1 vertical-text">Interests</div> -->
+      <div id="interests" class="container-fluid col-md-11">
+        <div class="row">
+          <a>
+            <h6 class="snipit">I advised.</h6>
+            <h6 class="date">Aug 2011 - Apr 2014</h6>
+          </a>
+        </div>
+        <div class="row">
+          <a>
+            <h6 class="snipit">I analyzed</h6>
+            <h6 class="date">Aug 2011 - Apr 2014</h6>
+          </a>
+        </div>
+        <div class="row">
+          <a>
+            <h6 class="snipit">I learned some stuff.</h6>
+            <h6 class="date">Oct 2015 - Present</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="section row">
+      <!-- <div class="col-md-1 vertical-text">Interests</div> -->
+      <div id="interests" class="container-fluid col-md-11">
+        <div class="row">
+          <a>
+            <h6 class="snipit">I am a life-long learner.</h6>
+            <h6 class="date">Oct 2015 - Present</h6>
+          </a>
+        </div>
+        <div class="row">
+          <a>
+            <h6 class="snipit">I am a wannabe creative.</h6>
+            <h6 class="date">Oct 2015 - Present</h6>
+          </a>
+        </div>
+        <div class="row">
+          <a>
+            <h6 class="snipit">I support those who want to be creative.</h6>
+            <h6 class="date">Oct 2015 - Present</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-fixed-bottom">
+  <div class="container">
+    <div class="row">
+      <ul>
+        <li>
+          email
+        </li>
+        <li>
+          linkedIn
+        </li>
+      </ul>
+    </div>
+</nav>
